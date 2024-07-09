@@ -23,8 +23,9 @@ Consigli del giorno:
 
 3.-Creare un SetTimeout di 30 secondi per far sparire i numeri dallo schermo
 
-4.-Creo un prompt per chiedere all'utente di inserire i numeri precdenti visti su schermo
+4.-Creo un prompt per chiedere all'utente di inserire i numeri visti su schermo precedentemente
 4.1.-Il prompt deve essere mostrato dopo che i numeri sono spariti
+4.2.-Nel prompt vanno scritti tutti e 5 i numeri visti su schermo
 
 5.-Creo una funzione per verificare se i numeri scritti dall'utente sono presenti nell'array
 5.1.-IF l'elemento è presente nell'array
