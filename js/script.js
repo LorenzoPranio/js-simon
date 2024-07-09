@@ -8,4 +8,13 @@ let numeri_casuali = [];
 
 //Creare una funzione per i numeri casuali
 
+function random_numbers(){
+    while (random_numbers.length < 5){
+        let num = Math.floor(Math.random() * 100 + 1);
+        if (!random_numbers.includes(num)){
+            random_numbers.push(num)
+        }
+    }
+}
+
 //Creo una funzione per verificare se i numeri scritti dall'utente sono presenti nell'array
